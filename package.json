@@ -1,0 +1,31 @@
+{
+  "name": "desktop-screenshot",
+  "version": "1.0.0",
+  "description": "node native addon module for capturing screenshots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-way/node-desktop-screenshot.git"
+  },
+  "keywords": [
+    "node",
+    "screenshot",
+    "screen",
+    "capture",
+    "native"
+  ],
+  "author": "Syntropy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/matt-way/node-desktop-screenshot/issues"
+  },
+  "homepage": "https://github.com/matt-way/node-desktop-screenshot#readme",
+  "dependencies": {
+    "nan": "^2.7.0",
+    "node-gyp": "^3.6.2"
+  }
+}
