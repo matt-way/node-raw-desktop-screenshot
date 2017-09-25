@@ -1,7 +1,7 @@
 {
-  "name": "desktop-screenshot",
+  "name": "raw-desktop-screenshot",
   "version": "1.0.0",
-  "description": "node native addon module for capturing screenshots",
+  "description": "node native addon module for capturing screenshots as raw image data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matt-way/node-desktop-screenshot.git"
+    "url": "git+https://github.com/matt-way/node-raw-desktop-screenshot.git"
   },
   "keywords": [
     "node",
     "screenshot",
     "screen",
     "capture",
-    "native"
+    "native",
+    "desktop",
+    "raw",
+    "pixels"
   ],
   "author": "Syntropy",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/matt-way/node-desktop-screenshot/issues"
+    "url": "https://github.com/matt-way/node-raw-desktop-screenshot/issues"
   },
-  "homepage": "https://github.com/matt-way/node-desktop-screenshot#readme",
+  "homepage": "https://github.com/matt-way/node-raw-desktop-screenshot#readme",
   "dependencies": {
     "nan": "^2.7.0",
     "node-gyp": "^3.6.2"

@@ -5,7 +5,7 @@
         "<!(node -e \"require('nan')\")"
       ],
       "target_name": "desktop-screenshot",
-      "sources": [ "addon/desktop-screenshot.cpp" ],
+      "sources": [ "addon/raw-desktop-screenshot.cpp" ],
       'conditions': [
         ['OS == "mac"', {
           'include_dirs': [
