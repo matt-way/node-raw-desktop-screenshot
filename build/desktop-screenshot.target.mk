@@ -46,10 +46,10 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/mattway/.node-gyp/8.4.0/include/node \
-	-I/Users/mattway/.node-gyp/8.4.0/src \
-	-I/Users/mattway/.node-gyp/8.4.0/deps/uv/include \
-	-I/Users/mattway/.node-gyp/8.4.0/deps/v8/include \
+	-I/Users/mattway/.node-gyp/9.2.0/include/node \
+	-I/Users/mattway/.node-gyp/9.2.0/src \
+	-I/Users/mattway/.node-gyp/9.2.0/deps/uv/include \
+	-I/Users/mattway/.node-gyp/9.2.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/System/Library/Frameworks/ApplicationServices.framework/Headers
 
@@ -94,10 +94,10 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/mattway/.node-gyp/8.4.0/include/node \
-	-I/Users/mattway/.node-gyp/8.4.0/src \
-	-I/Users/mattway/.node-gyp/8.4.0/deps/uv/include \
-	-I/Users/mattway/.node-gyp/8.4.0/deps/v8/include \
+	-I/Users/mattway/.node-gyp/9.2.0/include/node \
+	-I/Users/mattway/.node-gyp/9.2.0/src \
+	-I/Users/mattway/.node-gyp/9.2.0/deps/uv/include \
+	-I/Users/mattway/.node-gyp/9.2.0/deps/v8/include \
 	-I$(srcdir)/node_modules/nan \
 	-I$(srcdir)/System/Library/Frameworks/ApplicationServices.framework/Headers
 
